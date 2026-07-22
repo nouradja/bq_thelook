@@ -43,7 +43,7 @@ explore: billion_orders {
     sql_on: ${billion_orders.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
-
+## jajoute coms
   join: users {
     type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
