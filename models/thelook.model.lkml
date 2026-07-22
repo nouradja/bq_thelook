@@ -14,13 +14,13 @@ explore: lr_8_ardr1784618533110_my_explore_my_agg_table {}
 
 explore: billion_orders_wide {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${billion_orders_wide.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -31,6 +31,7 @@ explore: connection_reg_r3 {}
 explore: cpi_base {}
 
 explore: all_types {}
+##I like to add comment
 
 explore: lr_8_aubv1784618526573_my_pdt {}
 
@@ -38,13 +39,13 @@ explore: fatal_error_persist_for_five_seconds {}
 
 explore: billion_orders {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${billion_orders.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -64,13 +65,13 @@ explore: fake_scratch__connection_reg_r3 {}
 
 explore: hundred_million_orders {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${hundred_million_orders.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -78,13 +79,13 @@ explore: hundred_million_orders {
 
 explore: hundred_million_orders_wide {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${hundred_million_orders_wide.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -130,13 +131,13 @@ explore: nested {
 
 explore: order_items_57d25a746d03 {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_57d25a746d03.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -144,13 +145,13 @@ explore: order_items_57d25a746d03 {
 
 explore: order_items {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -158,13 +159,13 @@ explore: order_items {
 
 explore: order_items_febd02327d10 {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_febd02327d10.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -172,13 +173,13 @@ explore: order_items_febd02327d10 {
 
 explore: order_items_57d25a746d03_s0 {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_57d25a746d03_s0.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -186,13 +187,13 @@ explore: order_items_57d25a746d03_s0 {
 
 explore: order_items_57d25a746d03_s1 {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_57d25a746d03_s1.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -200,13 +201,13 @@ explore: order_items_57d25a746d03_s1 {
 
 explore: order_items_febd02327d10_s1 {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_febd02327d10_s1.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -214,13 +215,13 @@ explore: order_items_febd02327d10_s1 {
 
 explore: order_items_57d25a746d03_pr522283 {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_57d25a746d03_pr522283.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -228,13 +229,13 @@ explore: order_items_57d25a746d03_pr522283 {
 
 explore: order_items_febd02327d10495b {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_febd02327d10495b.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -242,13 +243,13 @@ explore: order_items_febd02327d10495b {
 
 explore: order_items_febd02327d10_s0 {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_febd02327d10_s0.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -256,7 +257,7 @@ explore: order_items_febd02327d10_s0 {
 
 explore: orders {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -264,7 +265,7 @@ explore: orders {
 
 explore: orders_19648cd67f557f35 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_19648cd67f557f35.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -272,7 +273,7 @@ explore: orders_19648cd67f557f35 {
 
 explore: orders_19648cd67f55 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_19648cd67f55.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -280,13 +281,13 @@ explore: orders_19648cd67f55 {
 
 explore: order_items_57d25a746d03_s2 {
   join: orders {
-    type: left_outer 
+    type: left_outer
     sql_on: ${order_items_57d25a746d03_s2.order_id} = ${orders.id} ;;
     relationship: many_to_one
   }
 
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -296,7 +297,7 @@ explore: orders_454_calendar {}
 
 explore: orders_19648cd67f55_s0 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_19648cd67f55_s0.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -304,7 +305,7 @@ explore: orders_19648cd67f55_s0 {
 
 explore: orders_19648cd67f55_s1 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_19648cd67f55_s1.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -312,7 +313,7 @@ explore: orders_19648cd67f55_s1 {
 
 explore: orders_5da2af78e95a_pr523923 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a_pr523923.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -320,7 +321,7 @@ explore: orders_5da2af78e95a_pr523923 {
 
 explore: orders_5da2af78e95a {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -328,7 +329,7 @@ explore: orders_5da2af78e95a {
 
 explore: orders_5da2af78e95a_s0 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a_s0.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -336,7 +337,7 @@ explore: orders_5da2af78e95a_s0 {
 
 explore: orders_5da2af78e95a_pr522283 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a_pr522283.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -344,7 +345,7 @@ explore: orders_5da2af78e95a_pr522283 {
 
 explore: orders_5da2af78e95a_s0_pr523544 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a_s0_pr523544.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -352,7 +353,7 @@ explore: orders_5da2af78e95a_s0_pr523544 {
 
 explore: orders_5da2af78e95a_s2 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a_s2.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -360,7 +361,7 @@ explore: orders_5da2af78e95a_s2 {
 
 explore: orders_5da2af78e95a_s1 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a_s1.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -368,7 +369,7 @@ explore: orders_5da2af78e95a_s1 {
 
 explore: orders_5da2af78e95a_s2_pr523544 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a_s2_pr523544.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -376,7 +377,7 @@ explore: orders_5da2af78e95a_s2_pr523544 {
 
 explore: orders_7802ca3ed416ac3d {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_7802ca3ed416ac3d.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -384,7 +385,7 @@ explore: orders_7802ca3ed416ac3d {
 
 explore: orders_9374bba7ce2d {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_9374bba7ce2d.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -392,7 +393,7 @@ explore: orders_9374bba7ce2d {
 
 explore: orders_5da2af78e95a_s1_pr523544 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_5da2af78e95a_s1_pr523544.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -400,7 +401,7 @@ explore: orders_5da2af78e95a_s1_pr523544 {
 
 explore: orders_9374bba7ce2d_pr522283 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_9374bba7ce2d_pr522283.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -408,7 +409,7 @@ explore: orders_9374bba7ce2d_pr522283 {
 
 explore: orders_9374bba7ce2d_s2 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_9374bba7ce2d_s2.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -416,7 +417,7 @@ explore: orders_9374bba7ce2d_s2 {
 
 explore: orders_9374bba7ce2d_s0 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_9374bba7ce2d_s0.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -424,7 +425,7 @@ explore: orders_9374bba7ce2d_s0 {
 
 explore: orders_9374bba7ce2d_s1 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_9374bba7ce2d_s1.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -432,7 +433,7 @@ explore: orders_9374bba7ce2d_s1 {
 
 explore: orders_date_string_test2 {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_date_string_test2.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -440,7 +441,7 @@ explore: orders_date_string_test2 {
 
 explore: orders_date_string {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_date_string.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -460,7 +461,7 @@ explore: partition_table_a_cb9d {}
 
 explore: orders_base_copy {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${orders_base_copy.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
@@ -576,11 +577,10 @@ explore: users_b0e9c6d61e9a_s2 {}
 
 explore: vijaya_order_test {
   join: users {
-    type: left_outer 
+    type: left_outer
     sql_on: ${vijaya_order_test.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
 
 explore: users_b0e9c6d61e9a_s1 {}
-
