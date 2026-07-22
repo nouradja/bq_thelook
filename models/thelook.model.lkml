@@ -1,5 +1,5 @@
 connection: "bq_thelook"
-
+## changes
 # include all the views
 include: "/views/**/*.view.lkml"
 
