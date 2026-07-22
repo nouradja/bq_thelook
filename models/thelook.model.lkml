@@ -25,7 +25,7 @@ explore: billion_orders_wide {
     relationship: many_to_one
   }
 }
-
+## ajout un commentaire
 explore: connection_reg_r3 {}
 
 explore: cpi_base {}
