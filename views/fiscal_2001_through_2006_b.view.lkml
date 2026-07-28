@@ -13,6 +13,7 @@ view: fiscal_2001_through_2006_b {
     type: string
     sql: ${TABLE}.CUST_Week ;;
   }
+  # test
   dimension: cust_year {
     type: string
     sql: ${TABLE}.CUST_YEAR ;;
