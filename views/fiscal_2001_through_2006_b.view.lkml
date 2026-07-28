@@ -17,6 +17,7 @@ view: fiscal_2001_through_2006_b {
     type: string
     sql: ${TABLE}.CUST_YEAR ;;
   }
+  ## add here
   dimension: day_of_year_num {
     type: number
     sql: ${TABLE}.DAY_OF_YEAR_NUM ;;
