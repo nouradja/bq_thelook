@@ -14,3 +14,4 @@ view: cpi_base {
     type: count
   }
 }
+## deleted dans l'autre cote
